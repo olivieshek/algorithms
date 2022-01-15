@@ -1,8 +1,5 @@
 # values = [1, 3, 5, 7, 9] # список значений, из которого угадываем; len = 5
 # let_guess = 9 # загаданное значение
-from tkinter import N
-
-
 def binary_search(list, item):
     low = 0
     high = len(list)
